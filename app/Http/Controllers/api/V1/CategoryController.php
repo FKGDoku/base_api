@@ -43,8 +43,6 @@ class CategoryController extends Controller
 
         return response()->json(['message' => $category], 200);
     }
-
-    
     /**
      * Remove the specified resource from storage.
      */
@@ -53,3 +51,5 @@ class CategoryController extends Controller
         return $category->delete();
     }
 }
+
+
